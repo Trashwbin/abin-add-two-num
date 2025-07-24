@@ -1,5 +1,5 @@
 # server.py
-from fastmcp import FastMCP
+from mcp.server.fastmcp import FastMCP
 
 # Create an MCP server
 mcp = FastMCP("sum")

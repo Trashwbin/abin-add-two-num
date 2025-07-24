@@ -1,13 +1,14 @@
 [project]
 name = "abin-add-two-num"
-version = "0.1.0"
+version = "0.1.2"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "Abin", email = "trashwbin@gmail.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
+    "fastmcp>=2.10.5",
     "mcp[cli]>=1.11.0",
 ]
 
